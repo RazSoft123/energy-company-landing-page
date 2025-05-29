@@ -2,7 +2,7 @@ export default function ServicesSection() {
     return (
         <section>
             <div>
-                <img src="" alt="" />
+                <img src="null" alt="" />
             </div>
             <div>
                 <div>
