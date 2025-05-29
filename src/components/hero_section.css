@@ -1,0 +1,26 @@
+.hero-section {
+    background-image: url('./../assets/hero_bg.jpg');
+    background-size: cover;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.rev-border {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 30px;
+}
+
+.rev-border::before {
+    content: '';
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    border-radius: 30px;
+}
