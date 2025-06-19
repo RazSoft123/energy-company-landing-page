@@ -1,12 +1,12 @@
 export default function BrandLogoSection() {
     
     return (
-        <section className="flex flex-col w-full border-2 px-28 py-4">
-            <div className="flex gap-16 items-center justify-center">
+        <section className="flex flex-col w-full px-28 py-4">
+            <div className="flex gap-16 items-center justify-center mt-16">
                 <h3 className="w-1/2 text-5xl">Focusing on quality, <span className="text-gray-500">we maintain customer trust</span></h3>
                 <p className="w-1/2 text-xl text-gray-700"> We ensure that every installation we build has strict quality checks. Sustainbale for an environmentally friendly and renewable future</p>
             </div>
-            <div className="flex gap-1 w-full border-2 justify-around items-center mt-16">
+            <div className="flex gap-1 w-full justify-around items-center mt-16 mb-24">
                 <BrandLogo logo="TREND" />
                 <BrandLogo logo="Telia Cygate" />
                 <BrandLogo logo="Business" />

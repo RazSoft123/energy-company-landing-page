@@ -7,7 +7,7 @@ export default function ServicesSection() {
             <div className="flex flex-col justify-around  flex-1/3">
                 <div className='flex flex-col'>
                     <h3 className='text-4xl text-gray-400'><span className='text-black'>Trusted services,</span> for your <br /> various need</h3>
-                    <a href="#" className='bg-green-500 inline-block w-fit  mt-8 py-3 px-5 rounded-4xl'>Get in touch</a>
+                    <a href="#" className='bg-green-500 inline-block w-fit text-white mt-8 py-3 px-5 rounded-4xl'>Get in touch</a>
                 </div>
                 <div className='grid grid-cols-2 gap-4 w-fit'>
                     <ServiceCard number='01' text="Solar panels for home" link="#" />
