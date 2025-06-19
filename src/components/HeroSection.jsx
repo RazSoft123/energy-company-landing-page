@@ -2,7 +2,7 @@ import './hero_section.css'
 
 export default function HeroSection() {
     return (
-        <section className="hero-section w-full h-dvh mt-2 flex border-2 items-center justify-between px-16">
+        <section className="hero-section w-full h-dvh mt-2 flex  items-center justify-between px-16">
             <div className='flex flex-col gap-5 text-white'>
                 <p>#1 Energy provider in the world</p>
                 <h1 className='text-8xl'>New Energy <br/>for the Future</h1>

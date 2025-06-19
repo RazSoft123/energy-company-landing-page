@@ -4,6 +4,7 @@ import BrandLogoSection from './components/BrandLogoSection'
 import QualitySection from './components/QualitySection'
 import ServicesSection from './components/ServicesSection'
 import Footer from './components/Footer'
+import TestimonialSection from './components/TestimonialSection'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <BrandLogoSection />
       <QualitySection />
       <ServicesSection />
+      <TestimonialSection />
       <Footer />
     </>
   )

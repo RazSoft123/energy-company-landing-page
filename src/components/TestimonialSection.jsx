@@ -1,6 +1,6 @@
 export default function TestimonialSection() {
     return (
-        <section>
+        <section className="w-full border-2">
             <div>
                 <h3>See how we solve <br/> problems, <span>right on target</span></h3>
             </div>
